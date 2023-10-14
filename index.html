@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caudex&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            sm: "480px",
+            md: "768px",
+            lg: "976px",
+            xl: "1440px",
+          },
+          colors: {
+            principalLight: "#F1F7EE",
+            secondaryLight: "#DBF4B9",
+            tertiaryLight: "#AAE28D",
+            quaternaryLight: "#6F686D",
+            quinaryLight: "#0C0F0A",
+
+            principalDark: "#30322F",
+            secondaryDark: "#CACFC7",
+            tertiaryDark: "#A2DF83",
+            quaternaryDark: "#C8DFA9",
+            quinaryDark: "#F1F7EE",
+          },
+          fontFamily: {
+            caudex: ["Caudex", "serif"],
+            sans: ["Graphik", "sans-serif"],
+            serif: ["Merriweather", "serif"],
+          },
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+            height: {
+              128: "32rem",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body class="bg-principalLight">
+    <!-- plantilla general de la página -->
+    <div class="border-b-2 border-b-quinaryLight h-10"></div>
+    <div class="flex flex-row">
+      <div class="w-16 h-128 border-r-2 border-r-quinaryLight"></div>
+      <div class="h-128 w-full"></div>
+      <div class="w-16 h-128 border-l-2 border-l-quinaryLight"></div>
+    </div>
+
+    <div class="border-t-2 border-t-quinaryLight h-10"></div>
+  </body>
+</html>
