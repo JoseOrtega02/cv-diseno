@@ -51,8 +51,9 @@
         },
       };
     </script>
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
+
   <body class="dark:bg-principalDark bg-principalLight">
     <!-- plantilla general de la página -->
     <div
@@ -94,37 +95,50 @@
       </a>
 
       <div class="h-128 w-full p-10">
-        <main class="flex flex-row space-x-20">
-          <img src="./img/profile2.jpeg" alt="" class="w-72 rounded-2xl" />
-          <div class="pt-10 flex flex-col gap-4">
-            <h1 class="dark:text-quinaryDark text-quinaryLight text-6xl">
-              José Ortega
-            </h1>
-
-            <hr class="solid" />
-
-            <h2 class="text-5xl text-quaternaryLight dark:text-secondaryDark">
-              Front-end Developer
-            </h2>
+        <main class="flex flex-col justify-center items-center">
+          <h1 class="text-4xl">Tecnologias</h1>
+          <div
+            class="flex flex-row gap-x-16 gap-y-5 flex-wrap w-2/5 justify-center items-center"
+          >
+            <img
+              class="w-16"
+              src="../img/1200px-Javascript-shield.svg.png"
+              alt=""
+            />
+            <img class="w-16" src="../img/Git_icon.svg.png" alt="" />
+            <img class="w-16" src="../img/PHP-logo.svg.png" alt="" />
+            <img class="w-16" src="../img/Python.svg.png" alt="" />
+            <img class="w-16" src="../img/React-icon.svg.png" alt="" />
+            <img class="w-16" src="../img/redux.svg" alt="" />
           </div>
-        </main>
-        <nav class="mt-20 w-full flex flex-row justify-center">
-          <ul class="flex flex-row space-x-10">
-            <li class="p-5 rounded-full bg-tertiaryLight">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                class="w-6 h-6"
-              >
-                <path
-                  d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z"
-                />
-                <path
-                  d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z"
-                />
-              </svg>
+          <h1 class="text-4xl mt-5">Habilidades blandas</h1>
+          <ul class="list-none pt-4">
+            <li class="custom-list">Comunicación efectiva</li>
+            <li class="custom-list">
+              Pensamiento crítico y resolución de problemas
             </li>
+            <li class="custom-list">Trabajo en equipo y colaboración</li>
+          </ul>
+        </main>
+        <nav class="mt-5 w-full flex flex-row justify-center">
+          <ul class="flex flex-row space-x-10">
+            <a href="../index.html">
+              <li class="p-5 rounded-full bg-secondaryLight">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z"
+                  />
+                  <path
+                    d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z"
+                  />
+                </svg>
+              </li>
+            </a>
             <li class="p-5 rounded-full bg-secondaryLight">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -142,22 +156,20 @@
                 />
               </svg>
             </li>
-            <a href="./habilidades/habilidades.html">
-              <li class="p-5 rounded-full bg-secondaryLight">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="w-6 h-6"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M3 6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3H6a3 3 0 01-3-3V6zm14.25 6a.75.75 0 01-.22.53l-2.25 2.25a.75.75 0 11-1.06-1.06L15.44 12l-1.72-1.72a.75.75 0 111.06-1.06l2.25 2.25c.141.14.22.331.22.53zm-10.28-.53a.75.75 0 000 1.06l2.25 2.25a.75.75 0 101.06-1.06L8.56 12l1.72-1.72a.75.75 0 10-1.06-1.06l-2.25 2.25z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-              </li>
-            </a>
+            <li class="p-5 rounded-full bg-tertiaryLight">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3H6a3 3 0 01-3-3V6zm14.25 6a.75.75 0 01-.22.53l-2.25 2.25a.75.75 0 11-1.06-1.06L15.44 12l-1.72-1.72a.75.75 0 111.06-1.06l2.25 2.25c.141.14.22.331.22.53zm-10.28-.53a.75.75 0 000 1.06l2.25 2.25a.75.75 0 101.06-1.06L8.56 12l1.72-1.72a.75.75 0 10-1.06-1.06l-2.25 2.25z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </li>
             <li class="p-5 rounded-full bg-secondaryLight">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
