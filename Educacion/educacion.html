@@ -51,9 +51,8 @@
         },
       };
     </script>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./educacion.css" />
   </head>
-
   <body class="dark:bg-principalDark bg-principalLight">
     <!-- plantilla general de la página -->
     <div
@@ -95,43 +94,66 @@
       </a>
 
       <div class="h-128 w-full p-10">
-        <main class="flex flex-col justify-center items-center">
-          <h1 class="text-4xl dark:text-quinaryDark text-quinaryLight">
-            Tecnologias
-          </h1>
+        <main class="flex flex-row space-x-20">
           <div
-            class="flex flex-row gap-x-16 gap-y-5 flex-wrap w-2/5 justify-center items-center"
+            class="block max-w-[18rem] rounded-lg bg-secondaryDark shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-quaternaryLight"
           >
-            <img
-              class="w-16"
-              src="../img/1200px-Javascript-shield.svg.png"
-              alt=""
-            />
-            <img class="w-16" src="../img/Git_icon.svg.png" alt="" />
-            <img class="w-16" src="../img/PHP-logo.svg.png" alt="" />
-            <img class="w-16" src="../img/Python.svg.png" alt="" />
-            <img class="w-16" src="../img/React-icon.svg.png" alt="" />
-            <img class="w-16" src="../img/redux.svg" alt="" />
+            <div class="relative overflow-hidden bg-cover bg-no-repeat">
+              <img
+                class="rounded-t-lg"
+                src="../img/0020_00132509_01349103_1_0_page-0001.jpg"
+                alt=""
+              />
+            </div>
+            <div class="p-6">
+              <p
+                class="text-base text-neutral-600 dark:text-neutral-200 dark:text-quinaryDark"
+              >
+                Certificado Ingles 2023- B2 -CUI-UBA
+              </p>
+            </div>
           </div>
-          <h1 class="text-4xl mt-5 dark:text-quinaryDark text-quinaryLight">
-            Habilidades blandas
-          </h1>
-          <ul class="list-none pt-4">
-            <li class="custom-list dark:text-quinaryDark text-quinaryLight">
-              Comunicación efectiva
-            </li>
-            <li class="custom-list dark:text-quinaryDark text-quinaryLight">
-              Pensamiento crítico y resolución de problemas
-            </li>
-            <li class="custom-list dark:text-quinaryDark text-quinaryLight">
-              Trabajo en equipo y colaboración
-            </li>
-          </ul>
+          <div
+            class="block max-w-[18rem] rounded-lg bg-secondaryDark shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-quaternaryLight"
+          >
+            <div class="relative overflow-hidden bg-cover bg-no-repeat">
+              <img
+                class="rounded-t-lg"
+                src="../img/936aa33c-1da6-4fa4-bb30-ac73b02d586b-1 (1).png"
+                alt=""
+              />
+            </div>
+            <div class="p-6">
+              <p
+                class="text-base text-neutral-600 dark:text-neutral-200 dark:text-quinaryDark"
+              >
+                Certificado HTML/CSS Google
+              </p>
+            </div>
+          </div>
+          <div
+            class="block max-w-[18rem] rounded-lg bg-secondaryDark shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-quaternaryLight"
+          >
+            <div class="relative overflow-hidden bg-cover bg-no-repeat">
+              <img
+                class="rounded-t-lg"
+                src="../img/sfcasts-certificate-php-level-1-1.png"
+                alt=""
+              />
+            </div>
+            <div class="p-6">
+              <p
+                class="text-base text-neutral-600 dark:text-neutral-200 dark:text-quinaryDark"
+              >
+                Certificado Level 1 PHP
+              </p>
+            </div>
+          </div>
         </main>
-        <nav class="mt-5 w-full flex flex-row justify-center">
+        <nav class="mt-20 w-full flex flex-row justify-center">
           <ul class="flex flex-row space-x-10">
-            <a href="../index.html">
-              <li class="p-5 rounded-full bg-secondaryLight">
+            <a href="../index.html"
+              ><li class="p-5 rounded-full bg-tertiaryLight">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -144,9 +166,9 @@
                   <path
                     d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z"
                   />
-                </svg>
-              </li>
-            </a>
+                </svg></li
+            ></a>
+
             <li class="p-5 rounded-full bg-secondaryLight">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -164,20 +186,22 @@
                 />
               </svg>
             </li>
-            <li class="p-5 rounded-full bg-tertiaryLight">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                class="w-6 h-6"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M3 6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3H6a3 3 0 01-3-3V6zm14.25 6a.75.75 0 01-.22.53l-2.25 2.25a.75.75 0 11-1.06-1.06L15.44 12l-1.72-1.72a.75.75 0 111.06-1.06l2.25 2.25c.141.14.22.331.22.53zm-10.28-.53a.75.75 0 000 1.06l2.25 2.25a.75.75 0 101.06-1.06L8.56 12l1.72-1.72a.75.75 0 10-1.06-1.06l-2.25 2.25z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-            </li>
+            <a href="./habilidades/habilidades.html">
+              <li class="p-5 rounded-full bg-secondaryLight">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M3 6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3H6a3 3 0 01-3-3V6zm14.25 6a.75.75 0 01-.22.53l-2.25 2.25a.75.75 0 11-1.06-1.06L15.44 12l-1.72-1.72a.75.75 0 111.06-1.06l2.25 2.25c.141.14.22.331.22.53zm-10.28-.53a.75.75 0 000 1.06l2.25 2.25a.75.75 0 101.06-1.06L8.56 12l1.72-1.72a.75.75 0 10-1.06-1.06l-2.25 2.25z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </li>
+            </a>
             <li class="p-5 rounded-full bg-secondaryLight">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
