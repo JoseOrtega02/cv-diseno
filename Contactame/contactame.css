@@ -1,7 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Caudex&display=swap');
+body{
+  font-family: 'Caudex', serif;
+}
 hr.solid {
     border-top: 3px solid #AAE28D;
   }

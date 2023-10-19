@@ -14,3 +14,7 @@ hr.solid {
     width: 1em; /* Also needed for space (tweak if needed) */
     margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
+@import url('https://fonts.googleapis.com/css2?family=Caudex&display=swap');
+body{
+  font-family: 'Caudex', serif;
+}
