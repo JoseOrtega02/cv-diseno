@@ -96,7 +96,7 @@
     <div class="flex flex-row">
       <a href="../index.html">
         <div
-          class="w-16 h-128 border-r-2 dark:border-r-quinaryDark border-r-quinaryLight flex flex-col justify-center items-center"
+          class="md:w-16 w-10 h-full border-r-2 dark:border-r-quinaryDark border-r-quinaryLight flex flex-col justify-center items-center"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -214,69 +214,64 @@
               </svg>
             </li>
             </a>
-            <a href="../Contactame/contactame.html"></a>
-            <li class="p-5 rounded-full bg-secondaryLight">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                class="w-6 h-6"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-            </li>
+            <a href="../Contactame/contactame.html">
+              <li class="p-5 rounded-full bg-secondaryLight">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </li>
+            </a>
           </ul>
         </nav>
       </div>
 
-      <div
-        class="w-16 h-128 border-l-2 border-l-quinaryLight dark:border-l-quinaryDark flex flex-col justify-center items-center"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          fill="currentColor"
-          class="w-6 h-6 fill-primaryLight dark:fill-quinaryDark"
+      <a href="../habilidades/habilidades.html">
+        <div
+          class="md:w-16 w-10 h-full border-l-2 border-l-quinaryLight dark:border-l-quinaryDark flex flex-col justify-center items-center"
         >
-          <path
-            fill-rule="evenodd"
-            d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z"
-            clip-rule="evenodd"
-          />
-        </svg>
-      </div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6 fill-primaryLight dark:fill-quinaryDark"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </a>
     </div>
 
+
     <div
-      class="border-t-2 border-t-quinaryLight dark:border-t-quinaryDark h-10 flex flex-row justify-center items-center p-10 gap-x-2.5"
+      class="border-t-2 border-t-quinaryLight dark:border-t-quinaryDark h-full flex flex-row justify-center items-center p-10 gap-x-2.5"
     >
       <hr class="solid w-16" />
-      <div>
+      <div class="flex flex-row gap-x-2 justify-center items-center">
         <h3 class="dark:text-quinaryDark text-quinaryLight">
           Sitio diseñado por: <br />José Ortega y Enzo Atencio.
         </h3>
+        <img
+          class="w-20"
+          src="./img/José Ortega-logos//José Ortega-logos_transparent.png"
+          alt=""
+        />
       </div>
       <hr class="solid w-16" />
-    </div> 
+    </div>
+
   </body>
-  <script>
-    const htmlElement = document.querySelector("html");
-    // traemos nuestro elemento html utilizando document.querySelector
-    const toogleButton = document.querySelector("#toggle");
-    // traemos nuestro botón
-
-    toogleButton.addEventListener("click", () => darkMode());
-    // le añadimos un escuchador de eventos para el evento 'click' que dispare la función darkMode
-
-    const darkMode = () => {
-      htmlElement.classList.contains("dark")
-        ? htmlElement.classList.remove("dark")
-        : htmlElement.classList.add("dark");
-    };
-    // esta función verifica si la etiqueta html posee la clase dark. Si la posee, la remueve, si no la posee la añade.
-  </script>
+  <script src="./inxex.js"></script>
 </html>
